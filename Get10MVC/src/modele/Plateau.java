@@ -32,10 +32,11 @@ public class Plateau extends Observable {
 		this.nbClic = nbClic;
 	}
 	
-	public void incClic(){
+	public int incClic(){
 		this.nbClic++;
 		setChanged();
 		notifyObservers();
+		return nbClic;
 	}
 	
 	@Override

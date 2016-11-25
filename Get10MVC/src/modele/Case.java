@@ -20,7 +20,7 @@ public class Case {
 
 		@Override
 		public String toString() {
-			return "|" + value + "|";
+			return ""+value;
 		}
 		
 		
